@@ -96,6 +96,10 @@ main {
   margin: 0 auto;
 }
 
+main > section {
+  margin-top: 130px;
+}
+
 /* About section styles */
 .about {
   padding: 130px;
@@ -112,11 +116,61 @@ main {
 .about-info {
   text-align: center;
 }
+
+/* Skill related CSS */
+
 #what-i-do {
   padding: 30px 150px;
 }
 
 .skills-container {
   display: flex;
-  justify-content: space-around;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-description {
+  color: #757575;
+}
+
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.resume-item-description,
+.resume-item-institute {
+  color: #757575;
+}
+
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.resume-container hr {
+  margin: 30px 0px;
+}
+.resume-item-institute {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
